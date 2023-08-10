@@ -49,7 +49,7 @@ You need to encode the link with BASE64 method.
 For example, you have a server at `myserver.com:8888` using `aes-256-gcm` encryption method and password `FatPet123$`  
 Then, with the plain URI `ss://aes-256-gcm:FatPet123$@myserver.com:8888`, you can generate the BASE64 encoded URI.  
 
-To do so open JavaScript console in Chrome/Brave browser : menu View->Developer->JavaScript Console
+To do so open JavaScript console in Chrome/Brave browser : F12 or menu View->Developer->JavaScript Console or Console
 
 ![img](1691663089214.jpg)
 
@@ -75,5 +75,16 @@ Instal [app](https://apps.apple.com/us/app/outline-app/id1356177741)
 Paste the URI generated above.
 
 Enjoy free internet and share it with your close-ones.  
+
+### Windows 
+Instal [app](https://github.com/shadowsocks/shadowsocks-windows/releases/)
+Unzip to any folder.
+Run 'Shadowsocks.exe'
+Provide server address, port and method.
+Right click on icon in tray : System proxy->Global
+Optionally: Start on Boot
+
+### Additional Clients
+[Shadowsocks clients](https://shadowsocks5.github.io/en/download/clients.html)
 
 
