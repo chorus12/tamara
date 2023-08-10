@@ -49,7 +49,10 @@ You need to encode the link with BASE64 method.
 For example, you have a server at `myserver.com:8888` using `aes-256-gcm` encryption method and password `FatPet123$`  
 Then, with the plain URI `ss://aes-256-gcm:FatPet123$@myserver.com:8888`, you can generate the BASE64 encoded URI.  
 
-To do so open JavaScript console in Chrome/Brave browser : menu View->Developer->JavaScript Console and paste the line below:  
+To do so open JavaScript console in Chrome/Brave browser : menu View->Developer->JavaScript Console
+![img](1691663089214.jpg)
+
+Paste the line below:  
 console.log( "ss://" + btoa("ss://aes-256-gcm:FatPet123$@myserver.com:8888") )   
 Press `Enter`.  
 You get an output like this:    
