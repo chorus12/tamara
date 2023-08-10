@@ -50,11 +50,15 @@ For example, you have a server at `myserver.com:8888` using `aes-256-gcm` encryp
 Then, with the plain URI `ss://aes-256-gcm:FatPet123$@myserver.com:8888`, you can generate the BASE64 encoded URI.  
 
 To do so open JavaScript console in Chrome/Brave browser : menu View->Developer->JavaScript Console
+
 ![img](1691663089214.jpg)
 
 Paste the line below:  
 console.log( "ss://" + btoa("ss://aes-256-gcm:FatPet123$@myserver.com:8888") )   
 Press `Enter`.  
+
+![img](1691662922810.jpg)
+
 You get an output like this:    
 `ss://c3M6Ly9hZXMtMjU2LWdjbTpGYXRQZXQxMjMkQG15c2VydmVyLmNvbTo4ODg4`  - this is your BASE64-encoded URI.  
 
