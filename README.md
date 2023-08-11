@@ -54,7 +54,7 @@ To do so open JavaScript console in Chrome/Brave browser : menu View->Developer-
 ![img](1691663089214.jpg)
 
 Paste the line below:  
-console.log( "ss://" + btoa("ss://aes-256-gcm:FatPet123$@myserver.com:8888") )   
+console.log( "ss://" + btoa("aes-256-gcm:FatPet123$@myserver.com:8888") )   
 Press `Enter`.  
 
 ![img](1691662922810.jpg)
