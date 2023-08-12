@@ -57,7 +57,7 @@ Paste the line below:
 console.log( "ss://" + btoa("aes-256-gcm:FatPet123$@myserver.com:8888") )   
 Press `Enter`.  
 
-![img](1691662922810.jpg)
+![img](console.jpg)
 
 You get an output like this:    
 `ss://c3M6Ly9hZXMtMjU2LWdjbTpGYXRQZXQxMjMkQG15c2VydmVyLmNvbTo4ODg4`  - this is your BASE64-encoded URI.  
